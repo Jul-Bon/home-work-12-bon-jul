@@ -1,0 +1,68 @@
+.subscribe {
+    margin: 0 auto 70px;
+    max-width: 530px;
+    border-bottom: 4px solid #999999;
+
+    ul {
+        @include list-reset;
+        list-style: none;
+    }
+}
+
+.form-email {
+    width: 90%;
+    font-size: 20px;
+    color: #282828;
+    float: left;
+}
+
+.form-input {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form-button {
+    float: right;
+}
+
+.button-form {
+    width: 50px;
+    height: 50px;
+    border: none;
+    color: #df001f;
+    background-color: transparent;
+    @include transition;
+}
+
+.button-form:hover {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+/* Placeholder */
+
+::-webkit-input-placeholder { /* Chrome/Safari */
+    @include form-placeholder;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    @include form-placeholder;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    @include form-placeholder;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    @include form-placeholder;
+}
+

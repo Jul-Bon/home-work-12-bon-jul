@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+section {
+    padding: 100px 0;
+}
+
+h1, h2 {
+    margin: 0;
+
+    .decorative-text {
+        display: block;
+    }
+}
+
+h4 {
+    margin: 0;
+}
+
+.small-button-list {
+    @include list-reset;
+    text-align: right;
+    margin-bottom: 5px;
+}

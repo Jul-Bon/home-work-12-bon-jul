@@ -300,7 +300,9 @@ return [
     //Our Founder staying in our hearts
     'founder' => [
         'heading' => 'Our Founder staying in our hearts',
-        'description' => '1982 <span>cantus </span> Start jurny and now it‘s top class Rock Band in the California.',
+        'descriptionYear' => '1982',
+        'cantusSpan' => 'cantus ',
+        'descriptionText' => 'Start jurny and now it‘s top class Rock Band in the California.',
         'learnButton' => [
             'id' => 'open-popup',
             'src' => '#',

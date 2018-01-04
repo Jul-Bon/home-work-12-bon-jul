@@ -196,7 +196,10 @@ $data = require 'data.php';
     <section class="founder">
         <div class="history">
             <h3><?php echo $data['founder']['heading']; ?></h3>
-            <p><?php echo $data['founder']['description']; ?></p>
+            <p><?php echo $data['founder']['descriptionYear']; ?>
+                <span><?php echo $data['founder']['cantusSpan']; ?></span>
+                <?php echo $data['founder']['descriptionText']; ?>
+            </p>
             <a href="<?php echo $data['founder']['learnButton']['src']; ?>" class="learn-more button"
                id="<?php echo $data['founder']['learnButton']['id']; ?>">
                 <?php echo $data['founder']['learnButton']['title']; ?>

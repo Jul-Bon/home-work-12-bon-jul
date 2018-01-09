@@ -169,7 +169,7 @@ $data = require 'data.php';
                         ?>
                         <li class="small-button custom-navigation">
                             <a href="<?php echo $switchVideo['url']; ?>" class="<?php echo $switchVideo['class']; ?>">
-                                <i class="fa <?php echo $switchItem['iconClass']; ?>" aria-hidden="true"></i>
+                                <i class="fa <?php echo $switchVideo['iconClass']; ?>" aria-hidden="true"></i>
                             </a>
                         </li>
                         <?php
